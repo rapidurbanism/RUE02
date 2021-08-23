@@ -1,7 +1,6 @@
 {
-  "name": "iauai",
-  "version": "0.3.0",
-  "homepage": "https://explorer.rapidurbanism.com/",
+  "name": "rue02",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@ant-design/charts": "^0.9.9",

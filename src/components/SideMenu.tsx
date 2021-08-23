@@ -58,7 +58,7 @@ const StyledDrawer = styled(Drawer)`
 
 const FileSaver = require("file-saver");
 
-const latest_version = "0.3.0";
+const latest_version = "0.2.0";
 
 const SideMenu = observer((props: any) => {
   const { openProject } = props;

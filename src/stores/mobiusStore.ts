@@ -8,8 +8,9 @@ export class MobiusStore {
     this.postMessageData = v;
   }
 
-  // models-stable-ver, models-gamma-ver, models-delta-ver
-  host = "https://iauai-20200725170124-hostingbucket-dev.s3.amazonaws.com/models-stable-ver/";
+  // Hello World Models for RUE 0.2
+  // host = "https://iauai-20200725170124-hostingbucket-dev.s3.amazonaws.com/models-stable-ver/";
+  host = "https://mobius-scripts.s3.amazonaws.com/rue02/";
   file = "city.mob";
   @observable initialModel = this.host + this.file;
 
