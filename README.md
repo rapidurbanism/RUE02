@@ -5,6 +5,8 @@ defined as a quadrilateral.
 
 RUE has been tested on the Chrome browser.
 
+![RUE 0.2](rue02.png)
+
 ## Overview
 
 The RUE explorer consist of two parts: a spatial model and a financial model.
