@@ -1,7 +1,19 @@
-# Rapid Urbanism Explorer 0.2
+# Rapid Urbanism Explorer
+
+The Rapid Urbanism Explorer is an Augmented Intelligence (AI) Platform to strengthen collaboration
+amongst decision makers in developing new urban districts in advanced ways. Rapid iterative virtual
+prototyping empowers stakeholders to produce complex urbanization scenarios integrating spatial,
+temporal, socioeconomic and environmental parameters in real time. Further info on
+[www.RapidUrbanism.com/Explorer-AI](www.RapidUrbanism.com/Explorer-AI).
+
+# Rapid Urbanism Explorer Version 0.2
 
 This is version 0.2 of RUE. This version is an early prototype. It is constrained to sites that are
 defined as a quadrilateral. 
+
+This software is offered under the [MIT License](https://github.com/design-automation/mobius-parametric-modeller-dev-0-5-77/raw/master/LICENSE).
+
+[**Please read the terms and conditions of this software.**](Terms_of_Use.pdf)
 
 RUE has been tested on the Chrome browser.
 
