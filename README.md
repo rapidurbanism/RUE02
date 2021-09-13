@@ -6,12 +6,13 @@ prototyping empowers stakeholders to produce complex urbanization scenarios inte
 temporal, socioeconomic and environmental parameters in real time. Further info on
 [www.RapidUrbanism.com/Explorer-AI](www.RapidUrbanism.com/Explorer-AI).
 
-# Rapid Urbanism Explorer Version 0.2
+## Rapid Urbanism Explorer Version 0.2
 
 This is version 0.2 of RUE. This version is an early prototype. It is constrained to sites that are
 defined as a quadrilateral. 
 
-This software is offered under the [MIT License](https://github.com/design-automation/mobius-parametric-modeller-dev-0-5-77/raw/master/LICENSE).
+This software is offered under the 
+[MIT License](https://github.com/rapidurbanism/RUE02/raw/main/LICENSE).
 
 [**Please read the terms and conditions of this software.**](Terms_of_Use.pdf)
 
@@ -50,10 +51,12 @@ early prototype, these were not implemented.)
 
 ## Financial Model
 
-For the financial models, RUE uses LuckySheet, a client-side spreadsheet.
+For the financial models, RUE uses [LuckySheet](https://github.com/mengshukeji/Luckysheet), a
+client-side spreadsheet.
 
-The financial model consist of s single spreadsheet. Values from the spatial model are inserted into
-specific cells in the spreadsheet, which then triggers the spreadsheet calculations to be executed. 
+In RUE 0.2, financial model consist of s single spreadsheet. Values from the spatial model are
+inserted into specific cells in the spreadsheet, which then triggers the spreadsheet calculations to
+be executed. 
 
 The financial model was developed as a Microsoft Excel spreadsheet, and then converted into the
 LuckySheet format. The Excel file was manually converted, by loading the file into an [online
@@ -98,3 +101,63 @@ To init credentials:
 
 To start dev server:
 `npm start`
+
+## Direct Dependencies
+
+The two main dependencies are:
+- Mobius Modeller: https://github.com/design-automation/mobius-parametric-modeller-0-5-77
+- LuckySheet: https://github.com/mengshukeji/Luckysheet
+
+A list of direct dependencies were extracted using 
+[NPM license crawler](https://www.npmjs.com/package/npm-license-crawler), as follows:
+- `npm-license-crawler- --onlyDirectDependencies --csv libs.csv`
+
+See [the output CSV file](libs.csv).
+
+The website links for the dependencies are as follows:
+- https://github.com/ant-design/ant-design-charts
+- https://github.com/ant-design/ant-design-icons/tree/master/packages/icons-react
+- https://github.com/antvis/data-set
+- https://github.com/aws-amplify/amplify-js
+- https://github.com/gsoft-inc/craco
+- https://github.com/Doodle3D/clipper-js
+- https://github.com/formulajs/formulajs
+- https://github.com/gregberge/loadable-components
+- https://github.com/testing-library/jest-dom
+- https://github.com/testing-library/react-testing-library
+- https://github.com/testing-library/user-event
+- https://github.com/DefinitelyTyped/DefinitelyTyped
+- https://github.com/ant-design/ant-design
+- https://github.com/aws-amplify/amplify-js
+- https://github.com/ant-design/babel-plugin-import
+- https://github.com/alibaba/BizCharts
+- https://github.com/gka/chroma.js
+- https://github.com/omichelsen/compare-versions
+- https://github.com/FormAPI/craco-less
+- https://github.com/cytoscape/cytoscape.js
+- https://github.com/d3/d3-delaunay
+- https://github.com/d3/d3-polygon
+- https://github.com/d3/d3-voronoi
+- https://github.com/eligrey/FileSaver.js
+- https://github.com/Stuk/jszip
+- https://github.com/webpack-contrib/less-loader
+- https://github.com/less/less.js
+- https://github.com/josdejong/mathjs
+- https://github.com/streamich/memfs
+- https://github.com/mobxjs/mobx-react
+- https://github.com/mobxjs/mobx
+- https://github.com/BenjaminVanRyseghem/numbro
+- https://github.com/proj4js/proj4js
+- https://github.com/react-csv/react-csv
+- https://github.com/facebook/react
+- https://github.com/supremetechnopriest/react-idle-timer
+- https://github.com/goldenyz/react-perfect-scrollbar
+- https://github.com/ReactTraining/react-router
+- https://github.com/ReactTraining/react-router
+- https://github.com/facebook/create-react-app
+- https://github.com/facebook/react
+- https://github.com/styled-components/styled-components
+- https://github.com/mrdoob/three.js
+- https://github.com/Microsoft/TypeScript
+- https://github.com/jashkenas/underscore
+
